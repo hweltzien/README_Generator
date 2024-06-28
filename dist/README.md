@@ -8,7 +8,7 @@ by Heather
 * [License](#license)
     
 ## Description
-    To simplify the process of creating a professional README
+    To simplify the README writing process
 
 ## Installation
     Run npm install in the terminal
@@ -17,7 +17,7 @@ by Heather
     Run node index.js in the terminal
     
 ## Credits
-    I had a tutoring session with Allistair and I watched a YouTube tutorial. 
+    I attended a tutoring session with Allistair and watched a YouTube tutorial
 
 ## License
     none

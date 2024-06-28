@@ -26,5 +26,5 @@ by Heather Weltzien
 ## License
     none
 
-# [link to completed project](https://hweltzien.github.io/______/)
+# [link to walkthrough video](https://drive.google.com/file/d/1hxbmgFOrns-rLpWazTMLSpBClMYmtYlI/view)
     
