@@ -8,6 +8,11 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type: "input",
+        name: "name",
+        message: "What is your name?",
+    },
+    {
+        type: "input",
         name: "title",
         message: "What is the name of your project?",
     },
@@ -40,10 +45,18 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, data)
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((responses) => {
+        console.log("Creating README.md File...");
+        writeToFile("./dist/README.md", generateMarkdown({ ...responses }));
+    });
+}
+
 
 // Function call to initialize app
 init();
