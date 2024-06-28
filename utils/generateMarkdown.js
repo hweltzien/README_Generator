@@ -24,6 +24,11 @@ by ${data.name}
 ## License
     ${data.license}
     
+## Questions?
+<ul>    
+    <li><a href="https://github.com/${data.GitHub}">Link to my GitHub Profile</a></li>
+    <li>For additional questions, you can reach me at ${data.email}.</li>
+</ul>
     `;
 }
 module.exports = generateMarkdown
